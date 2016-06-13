@@ -1,0 +1,56 @@
+<html data-ng-app="RichardLamoste">
+<head>
+	<title>Richard Lamoste - Front-end Developer | UI/UX Designer | Philippines</title>
+	<meta name="description" content="Front-end Developer, UI and UX designer from Philippines."/>
+	<meta name="keywords" content="front-end developer, ui designer, ux designer, web developer, web designer"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- Bower -->
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">	
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>	
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- App -->
+	<script type="text/javascript" src="assets/javascripts/app.js"></script>
+	<script type="text/javascript" src="assets/javascripts/routes.js"></script>
+	
+	<!-- Directives -->
+	<script type="text/javascript" src="assets/javascripts/directives/pageNav.js"></script>
+	<script type="text/javascript" src="assets/javascripts/directives/pageScroll.js"></script>
+
+	<!-- Filters -->
+
+	<!-- Controllers -->
+	<script type="text/javascript" src="assets/javascripts/controllers/HomeIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascripts/controllers/AboutIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascripts/controllers/WorksIndexController.js"></script>
+	<script type="text/javascript" src="assets/javascripts/controllers/ContactIndexController.js"></script>
+	<!-- Services -->
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/css/main.min.css">
+</head>
+<body>
+<div id="container">
+<page-nav></page-nav>		
+<div id="main" data-ng-view class="container-fluid">
+</div>
+<div class="copyright">&copy; 2016 <a href="http://www.richardlamoste.com" title="Richard Lamoste">Richard Lamoste</a></div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79170265-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

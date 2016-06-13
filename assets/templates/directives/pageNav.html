@@ -1,0 +1,13 @@
+<nav class="navbar navbar-default"  ng-class="class">	
+	<div class="container-fluid">
+		<span class="fa fa-bars" aria-hidden="true" ng-click="changeClass()" ng-class="gicon">
+		</span>		
+		<ul class="nav navbar-nav">
+			<li ng-class="{'active':isPage('home')}"><a href="/#/home">Home</a></li>
+			<li ng-class="{'active':isPage('about')}"><a href="/#/about">About</a></li>
+			<li ng-class="{'active':isPage('works')}"><a href="/#/works">Works</a></li>
+			<li ng-class="{'active':isPage('contact')}"><a href="/#/contact">Contact</a></li>	
+		</ul>			
+	</div>
+</nav>
+

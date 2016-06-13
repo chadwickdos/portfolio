@@ -1,0 +1,1400 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+@-moz-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-10px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@-ms-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@-o-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes eyeballs {
+  0% {
+    left: 30px;
+  }
+  50% {
+    left: 32px;
+  }
+  100% {
+    left: 34px;
+  }
+}
+@-moz-keyframes eyeballs {
+  0% {
+    left: 30px;
+  }
+  50% {
+    left: 32px;
+  }
+  100% {
+    left: 34px;
+  }
+}
+@-webkit-keyframes eyeballs {
+  0% {
+    left: 30px;
+  }
+  50% {
+    left: 32px;
+  }
+  100% {
+    left: 34px;
+  }
+}
+@-ms-keyframes eyeballs {
+  0% {
+    left: 30px;
+  }
+  50% {
+    left: 32px;
+  }
+  100% {
+    left: 34px;
+  }
+}
+@-o-keyframes eyeballs {
+  0% {
+    left: 30px;
+  }
+  50% {
+    left: 32px;
+  }
+  100% {
+    left: 34px;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-moz-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-ms-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@-o-keyframes type {
+  0% {
+    width: 0;
+  }
+}
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@-moz-keyframes flip {
+  0% {
+    -moz-transform: rotateY(0deg);
+  }
+  100% {
+    -moz-transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@-ms-keyframes flip {
+  0% {
+    -ms-transform: rotateY(0deg);
+  }
+  100% {
+    -ms-transform: rotateY(360deg);
+  }
+}
+@-o-keyframes flip {
+  0% {
+    -o-transform: rotateY(0deg);
+  }
+  100% {
+    -o-transform: rotateY(360deg);
+  }
+}
+@keyframes fall {
+  0% {
+    top: 30px;
+    opacity: 1;
+  }
+  100% {
+    top: 40px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes fall {
+  0% {
+    top: 30px;
+    opacity: 0;
+  }
+  100% {
+    top: 40px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fall {
+  0% {
+    top: 30px;
+    opacity: 0;
+  }
+  100% {
+    top: 40px;
+    opacity: 1;
+  }
+}
+@-ms-keyframes fall {
+  0% {
+    top: 30px;
+    opacity: 0;
+  }
+  100% {
+    top: 40px;
+    opacity: 1;
+  }
+}
+@-o-keyframes fall {
+  0% {
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    top: 40px;
+    opacity: 1;
+  }
+}
+@keyframes fall2 {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes fall2 {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fall2 {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-ms-keyframes fall2 {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes fall2 {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    right: 20px;
+    opacity: 0;
+  }
+  100% {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes right {
+  0% {
+    right: 20px;
+    opacity: 0;
+  }
+  100% {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes right {
+  0% {
+    right: 20px;
+    opacity: 0;
+  }
+  100% {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@-ms-keyframes right {
+  0% {
+    right: 20px;
+    opacity: 0;
+  }
+  100% {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@-o-keyframes right {
+  0% {
+    right: 20px;
+    opacity: 0;
+  }
+  100% {
+    right: 40px;
+    opacity: 1;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+@-moz-keyframes spin2 {
+  0% {
+    -moz-transform: rotate(360deg);
+  }
+  100% {
+    -moz-transform: rotate(720deg);
+  }
+}
+@-webkit-keyframes spin2 {
+  0% {
+    -webkit-transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+  }
+}
+@-ms-keyframes spin2 {
+  0% {
+    -ms-transform: rotate(360deg);
+  }
+  100% {
+    -ms-transform: rotate(720deg);
+  }
+}
+@-o-keyframes spin2 {
+  0% {
+    -o-transform: rotate(360deg);
+  }
+  100% {
+    -o-transform: rotate(720deg);
+  }
+}
+#container {
+  position: relative;
+  overflow: hidden;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#container .copyright {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #888888;
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -9999px -9999px;
+}
+#container .copyright a {
+  color: #888888;
+}
+#main {
+  clear: both;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
+}
+#main .code:before,
+#main .design:before,
+#main .wordpress:before,
+#main .email:before {
+  content: "\f121";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  color: #aaaaaa;
+}
+#main .design:before {
+  content: "\f108";
+}
+#main .wordpress:before {
+  content: "\f19a";
+}
+#main .email:before {
+  content: "\f003";
+}
+#main ul {
+  vertical-align: top;
+  margin: 0 0 20px 0;
+}
+#main ul.fa {
+  padding-left: 30px;
+}
+#main ul.fa li:first-child {
+  font-size: inherit;
+}
+#main ul.custom {
+  padding-left: 30px;
+}
+#main ul.custom li {
+  position: relative;
+  margin: 0 0 10px 0;
+}
+#main ul.custom li:before {
+  content: "\f046";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 5px;
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #aaaaaa;
+}
+#main ul.custom li small {
+  text-transform: none;
+  font-size: inherit;
+}
+#main li {
+  font-family: 'Raleway', sans-serif;
+  list-style: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 300;
+}
+.btn {
+  text-transform: uppercase;
+  padding: 10px 40px;
+  border: 2px solid #ddd;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.btn:hover {
+  background: #fff;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+.btn-default {
+  background: #fff;
+  margin: 20px auto;
+}
+.btn-default .fa {
+  margin-left: 10px;
+}
+.btn-default:hover {
+  background: #ddd;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+#intro {
+  padding: 5% 0;
+  text-align: center;
+  position: relative;
+}
+#intro h1 {
+  font-size: 32px;
+  margin: 0 auto 2em;
+  font-weight: 300;
+  color: #333333;
+  max-width: 600px;
+}
+#intro h1 strong {
+  font-weight: 500;
+}
+#intro .logo {
+  width: 100px;
+  height: 120px;
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -354px -122px;
+  margin: 0 auto 1.5em;
+  position: relative;
+}
+#intro .logo:after,
+#intro .logo.face0:after {
+  content: '';
+  display: block;
+  top: -20px;
+  opacity: 0;
+  position: absolute;
+}
+#intro .logo:before,
+#intro .logo.face0:before {
+  content: '';
+  display: block;
+  bottom: -20px;
+  opacity: 0;
+  position: absolute;
+}
+#intro .logo.face1:after {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -155px -172px;
+  width: 106px;
+  height: 66px;
+  top: -7px;
+  left: -4px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face1:before {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -100px -173px;
+  width: 44px;
+  height: 16px;
+  bottom: 20px;
+  left: 29px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face2:after {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: 0 -127px;
+  width: 86px;
+  height: 116px;
+  top: -15px;
+  left: 8px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face3:after {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -265px -110px;
+  width: 85px;
+  height: 128px;
+  top: -10px;
+  left: 7px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face4:after {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -168px 0;
+  width: 111px;
+  height: 103px;
+  top: 0;
+  left: -5px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face4:before {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -189px -118px;
+  width: 68px;
+  height: 38px;
+  bottom: 0;
+  left: 17px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face5:after {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -92px 0;
+  width: 76px;
+  height: 93px;
+  top: 12px;
+  left: 13px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face5:before {
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  width: 92px;
+  height: 127px;
+  bottom: -7px;
+  left: 5px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo.face1 span.face:before {
+  -webkit-animation: eyeballs 1s infinite;
+  -moz-animation: eyeballs 1s infinite;
+  -ms-animation: eyeballs 1s infinite;
+  -o-animation: eyeballs 1s infinite;
+  animation: eyeballs 1s infinite;
+}
+#intro .logo.face1 span.face:after,
+#intro .logo.face2 span.face:after,
+#intro .logo.face3 span.face:after,
+#intro .logo.face4 span.face:after,
+#intro .logo.face5 span.face:after,
+#intro .logo.face5 span.face:before {
+  -webkit-transition: fadein 1s infinite;
+  -moz-animation: fadein 1s infinite;
+  -ms-animation: fadein 1s infinite;
+  -o-animation: fadein 1s infinite;
+  animation: fadein 1s infinite;
+}
+#intro .logo.face5 span.face:before {
+  top: 56px;
+  left: 20px;
+  width: 62px;
+  height: 9px;
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -99px -114px;
+  z-index: 2;
+}
+#intro .logo.face1 span.speech:after,
+#intro .logo.face2 span.speech:after,
+#intro .logo.face3 span.speech:after,
+#intro .logo.face4 span.speech:after,
+#intro .logo.face5 span.speech:after {
+  bottom: 45px;
+  opacity: 1;
+  transition: opacity 300ms, top 300ms, bottom 300ms;
+  -moz-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -ms-animation: opacity 300ms, top 300ms, bottom 300ms;
+  -webkit-transition: opacity 300ms, top 300ms, bottom 300ms;
+  -o-transition: opacity 300ms, top 300ms, bottom 300ms;
+}
+#intro .logo span.face:after {
+  opacity: 0;
+  content: '';
+  display: block;
+  bottom: 23px;
+  left: 40px;
+  position: absolute;
+  width: 23px;
+  height: 4px;
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -108px -216px;
+}
+#intro .logo span.face:before {
+  content: '';
+  display: block;
+  top: 60px;
+  left: 32px;
+  position: absolute;
+  width: 39px;
+  height: 5px;
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -103px -144px;
+}
+#intro .logo.face1 span.speech:before,
+#intro .logo.face2 span.speech:before,
+#intro .logo.face3 span.speech:before,
+#intro .logo.face4 span.speech:before,
+#intro .logo.face5 span.speech:before {
+  -webkit-animation: type 4s steps(60, end);
+  -moz-animation: type 4s steps(60, end);
+  -ms-animation: type 4s steps(60, end);
+  -o-animation: type 4s steps(60, end);
+  animation: type 4s steps(60, end);
+}
+#intro .logo.face1 span.speech:before {
+  content: "IT'S ME MARIO!";
+  left: 112px;
+}
+#intro .logo.face2 span.speech:before {
+  content: "I'M BATMAN!";
+}
+#intro .logo.face3 span.speech:before {
+  content: "THIS IS SPARTA!";
+  left: 110px;
+}
+#intro .logo.face4 span.speech:before {
+  content: "WINTER IS COMING!";
+  left: 110px;
+  font-size: 18px;
+}
+#intro .logo.face5 span.speech:before {
+  content: "YOU KNOW WHO I AM!";
+  left: 110px;
+  font-size: 16px;
+}
+#intro .logo span.speech:after {
+  opacity: 0;
+  content: '';
+  display: block;
+  bottom: 0;
+  left: 95px;
+  position: absolute;
+  width: 175px;
+  height: 97px;
+  background: transparent url(../../images/sprite.png) no-repeat 0 0;
+  background-position: -280px 0;
+}
+#intro .logo span.speech:before {
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  width: 175px;
+  height: 97px;
+  position: absolute;
+  left: 125px;
+  bottom: 15px;
+  color: #fff;
+  z-index: 9;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 24px;
+  white-space: nowrap;
+}
+#intro a.play {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  cursor: pointer;
+  color: #aaaaaa;
+}
+#intro a.play .glyphicon {
+  display: block;
+  font-size: 24px;
+}
+#intro a.play:hover {
+  text-decoration: none;
+  color: #666666;
+}
+#intro a.play.yes .glyphicon {
+  -webkit-animation: spin 1.5s;
+  -moz-animation: spin 1.5s;
+  -ms-animation: spin 1.5s;
+  -o-animation: spin 1.5s;
+  animation: spin 1.5s;
+}
+#intro a.play.no .glyphicon {
+  -webkit-animation: spin2 1.5s;
+  -moz-animation: spin2 1.5s;
+  -ms-animation: spin2 1.5s;
+  -o-animation: spin2 1.5s;
+  animation: spin2 1.5s;
+}
+.navbar {
+  position: relative;
+  float: right;
+  right: 10px;
+  top: 20px;
+  z-index: 99;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.navbar .navbar-nav {
+  width: 0;
+  height: 30px;
+  position: absolute;
+  right: 40px;
+  top: 0;
+  z-index: 1;
+  margin: 0;
+  overflow: hidden;
+  transition: width 300ms;
+  -moz-transition: width 300ms;
+  -ms-animation: width 300ms;
+  -webkit-transition: width 300ms;
+  -o-transition: width 300ms;
+}
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  padding: 5px 20px;
+  outline: none;
+}
+.navbar li a:after {
+  content: '';
+  display: none;
+  border-bottom: 2px solid #eee;
+}
+.navbar li.active a {
+  background: none!important;
+  box-shadow: none!important;
+}
+.navbar li.active a:after {
+  display: block;
+}
+.navbar .fa {
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  z-index: 2;
+  position: relative;
+}
+.navbar .fa:hover {
+  color: #666666;
+}
+.navbar:after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 110px;
+  height: 25px;
+  background: transparent url(../../images/click.png) no-repeat 0 0;
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -ms-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+.navbar.yes .navbar-nav {
+  width: 360px;
+  transition: width 300ms;
+  -moz-transition: width 300ms;
+  -ms-animation: width 300ms;
+  -webkit-transition: width 300ms;
+  -o-transition: width 300ms;
+}
+.navbar.yes:after {
+  -webkit-animation: fadeout 1s forwards;
+  -moz-animation: fadeout 1s forwards;
+  -ms-animation: fadeout 1s forwards;
+  -o-animation: fadeout 1s forwards;
+  animation: fadeout 1s forwards;
+}
+#about {
+  padding: 5% 0;
+}
+#about .avatar {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #f5f5f5;
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+#about .avatar img {
+  z-index: 2;
+  position: relative;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+#about .avatar:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  background: transparent url(../../images/swirl.jpg) no-repeat center;
+  -webkit-animation: spin 3.5s;
+  -moz-animation: spin 3.5s;
+  -ms-animation: spin 3.5s;
+  -o-animation: spin 3.5s;
+  animation: spin 3.5s;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+#about:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#contact {
+  padding: 5% 0;
+}
+#contact .avatar {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #f5f5f5;
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+#contact .avatar .fa-envelope-o {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -28px 0 0 -28px;
+  color: #aaaaaa;
+  -webkit-animation: flip 1.5s;
+  -moz-animation: flip 1.5s;
+  -ms-animation: flip 1.5s;
+  -o-animation: flip 1.5s;
+  animation: flip 1.5s;
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+#contact .avatar .fa-check-circle-o {
+  opacity: 0;
+  position: absolute;
+  left: 90px;
+  top: 40px;
+  z-index: 2;
+  background: #fff;
+  font-size: 22px;
+  color: #34a853;
+  -webkit-animation: fall 300ms ease forwards;
+  -moz-animation: fall 300ms ease forwards;
+  -ms-animation: fall 300ms ease forwards;
+  -o-animation: fall 300ms ease forwards;
+  animation: fall 300ms ease forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+#contact form .fa {
+  display: block;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+#contact form .fa input,
+#contact form .fa textarea {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  border: 2px solid #d5d5d5;
+  line-height: 1;
+  padding: 11px;
+  padding-left: 35px;
+  outline: none;
+}
+#contact form .fa input {
+  width: 50%;
+}
+#contact form .fa input.ng-invalid-email.ng-not-empty {
+  border-color: #ea4335;
+}
+#contact form .fa input.ng-valid-email.ng-not-empty {
+  border-color: #34a853;
+}
+#contact form .fa textarea {
+  width: 80%;
+}
+#contact form .fa:before {
+  content: "\f007";
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  color: #d5d5d5;
+  z-index: 2;
+}
+#contact form .fa.f_email:before {
+  content: "\f0e0";
+}
+#contact form .fa.f_message:before {
+  content: "\f075";
+}
+#contact:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#works {
+  padding: 0;
+}
+#works .fa-arrow-circle-up {
+  text-align: center;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  max-width: 100px;
+  margin: 2.5% auto;
+  color: #aaaaaa;
+  cursor: pointer;
+}
+#works .fa-arrow-circle-up:hover {
+  color: #666666;
+}
+#works .fa-arrow-circle-up:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  display: block;
+  font-size: 24px;
+}
+#works .wrap {
+  padding: 40px 0 120px;
+}
+#works h1 small {
+  display: block;
+  font-size: 14px;
+}
+#works h2 {
+  font-size: 22px;
+  font-weight: 400;
+  border-top: 1px dashed #d5d5d5;
+  padding: 20px 0 10px;
+  margin: 20px 0 10px;
+}
+#works .work {
+  opacity: 0;
+  top: -20px;
+  background: #eee;
+  padding: 30px 4px 10px;
+  max-width: 638px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#works .work:before,
+#works .work:after,
+#works .work div:before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #ea4335;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#works .work:after {
+  left: 26px;
+  background: #fbbc05;
+}
+#works .work div {
+  overflow: hidden;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#works .work div img {
+  max-width: 100%;
+}
+#works .work div:before {
+  left: 41px;
+  background: #34a853;
+}
+#works .work div:after {
+  content: "\f067";
+  display: block;
+  position: absolute;
+  right: 11px;
+  top: 9px;
+  font: normal normal normal 14px/1 FontAwesome;
+  color: #aaaaaa;
+}
+#works .workb {
+  background: #f5f5f5;
+  padding: 40px 4px 40px;
+  max-width: 173px;
+  margin: 0 auto;
+  position: absolute;
+  right: 40px;
+  bottom: -10px;
+  opacity: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+#works .workb div {
+  overflow: hidden;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#works .workb div:before,
+#works .workb div:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 65px;
+  background: #d5d5d5;
+  width: 40px;
+  height: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#works .workb div:after {
+  width: 20px;
+  height: 20px;
+  top: auto;
+  bottom: 10px;
+  left: 75px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+#works .active .work {
+  -webkit-animation: fall2 600ms ease forwards;
+  -moz-animation: fall2 600ms ease forwards;
+  -ms-animation: fall2 600ms ease forwards;
+  -o-animation: fall2 600ms ease forwards;
+  animation: fall2 600ms ease forwards;
+}
+#works .active .workb {
+  -webkit-animation: right 600ms ease forwards;
+  -moz-animation: right 600ms ease forwards;
+  -ms-animation: right 600ms ease forwards;
+  -o-animation: right 600ms ease forwards;
+  animation: right 600ms ease forwards;
+}
+#works .nonactive .work,
+#works .nonactive .workb {
+  -webkit-animation: fade 600ms ease forwards;
+  -moz-animation: fade 600ms ease forwards;
+  -ms-animation: fade 600ms ease forwards;
+  -o-animation: fade 600ms ease forwards;
+  animation: fade 600ms ease forwards;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 1024px) {
+  #works h1 {
+    margin: 20px 0 5px;
+  }
+  #works .wrap {
+    padding: 40px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #container .copyright {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+  }
+  .navbar.yes .navbar-nav {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.95);
+    padding: 20%;
+  }
+  .navbar li {
+    float: none;
+    display: block;
+    margin: 20px auto;
+  }
+  .navbar li a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
+  #works .active .workb {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #intro .speech {
+    display: none;
+  }
+}
